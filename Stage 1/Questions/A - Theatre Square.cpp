@@ -8,19 +8,8 @@ int main(void) {
 	long long width=0, height=0;
 	cin >> m >> n >> a;
 	
-	if(m%a == 0)
-		width = m/a;
-		
-	else {
-		width=(m/a+1);
-	}
-	
-	if(n%a == 0)
-		height = n/a;
-		
-	else {
-		height=(n/a+1);
-	}
+	width = (n + (a-1)) / a;
+	height = (m + (a-1)) / a;
 	
 	cout << width*height << endl;
 	
