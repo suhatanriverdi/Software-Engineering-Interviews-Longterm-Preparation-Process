@@ -39,8 +39,7 @@ int main(void) {
 			convert >> cstr; //
 			s.append(cstr);
     	}
-		
-		cout << s;
-		
+	
+	cout << s;
 	return 0;
 }
