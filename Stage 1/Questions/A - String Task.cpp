@@ -7,7 +7,7 @@ using namespace std;
 
 int main(void) {		
 		char n[1000]; // Char Array
-		cin >> n; // Input string
+		cin >> n;
 		char *c = n; // Char Array's Pointer
 
 		for(int i=0; n[i]!='\0'; i++) { //Remove vowels manually

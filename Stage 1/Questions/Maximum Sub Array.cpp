@@ -31,7 +31,7 @@ class Solution {
 	            int max_here = 0, max_sofar = 0;	
 	            for (int i = 0; i < nums.size(); i++) {
 	                max_here += nums[i];
-	                if (max_here < 0) { // Negative Nums
+	                if (max_here < 0) {
 	                    max_here = 0;
 					}
 	                else if (max_sofar < max_here) {
