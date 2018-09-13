@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 class Stack {
@@ -8,23 +7,19 @@ class Stack {
 		vector<int> data; //Store Elements
 		
 	public:
-		//Insert an element into the stack.
-		void push(int x) {
+		void push(int x) { //Insert an element into the stack.
 			data.push_back(x);
 		}
 		
-		//Get the top item, without deleting
-		int top() {
+		int top() { //Get the top item, without deleting
 			return data.back();
 		}
 		
-		//Checks whether the queue is empty or not
-		bool isEmpty() {
+		bool isEmpty() { //Checks whether the queue is empty or not
 			return data.empty();
 		}
 		
-		//Delete an element from the queue and return it
-		bool pop() {
+		bool pop() { //Delete an element from the queue and return it
 			if(isEmpty()) {
 				return false;
 			}
@@ -33,8 +28,7 @@ class Stack {
 		}
 };
 
-int main(void) {
-	
+int main(void) {	
 	Stack s;
 	
 	s.push(1);

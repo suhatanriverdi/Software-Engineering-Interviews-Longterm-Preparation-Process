@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 class Queue {
@@ -34,7 +33,6 @@ class Queue {
 };
 
 int main(void) {
-	
     Queue q;
     q.enQueue(5);
     q.enQueue(3);
