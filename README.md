@@ -1,4 +1,4 @@
-# Software Intern Interview Preparation Process
+# Software Engineering Interview Preparation Process
 
 -> This repository contains various **Algorithms** and **Data Structures** questions and codes in the preparation process of **software intern interview**.
 
